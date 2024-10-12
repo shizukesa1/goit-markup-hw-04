@@ -4,6 +4,7 @@ body{
     font-size: 16px;
     color:#434455;
 }
+
 a {
     text-decoration: none;
 }
@@ -25,9 +26,12 @@ header{
     margin: 0 auto;
     padding: 0 15px;
 }
+
 .header-nav{
+   
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 .header-logo{
     margin-right: 76px;
@@ -61,6 +65,7 @@ header{
     color:#404bbf;
 }
 .header-adress{   
+    justify-content: flex-start;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
