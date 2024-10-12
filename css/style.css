@@ -108,15 +108,15 @@ gap: 40px;
 .section-second{
     padding: 120px 0;
 }
- .visually-hidden {
-     position: absolute;
-     width: 1px;
-     height: 1px;
-     padding: 0;
-     margin: -1px;
-     overflow: hidden;
-     clip: rect(0, 0, 0, 0);
-     border: 0;
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+   height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
  }
 .section-second-text{
     margin-bottom: 8px;
@@ -131,8 +131,7 @@ gap: 40px;
     gap: 24px;
 }
 .section-second-il{
-    width: calc((100% - 72px) / 4);
-
+    flex-basis: calc((100% - 72px) / 4);
 }
 .section-second-parsagraf{
     font-size: 16px;
