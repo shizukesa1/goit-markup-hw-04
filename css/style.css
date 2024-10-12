@@ -111,13 +111,15 @@ gap: 40px;
 .visually-hidden {
     position: absolute;
     width: 1px;
-   height: 1px;
-    padding: 0;
+    height: 1px;
     margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
     border: 0;
- }
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
 .section-second-text{
     margin-bottom: 8px;
     font-weight: 500;
@@ -188,7 +190,6 @@ padding: 32px 0;
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    justify-content: space-evenly;
     row-gap: 48px;
 }
 .section-fours-li{
