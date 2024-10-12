@@ -105,12 +105,34 @@ gap: 40px;
     background-color: #404BBF;
     cursor: pointer;
 }
+.section-second{
+    padding: 120px 0;
+}
+ .visually-hidden {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     padding: 0;
+     margin: -1px;
+     overflow: hidden;
+     clip: rect(0, 0, 0, 0);
+     border: 0;
+ }
 .section-second-text{
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+}
+.section-second-ul{
+    display: flex;
+    gap: 24px;
+}
+.section-second-il{
+    width: calc((100% - 72px) / 4);
+
 }
 .section-second-parsagraf{
     font-size: 16px;
