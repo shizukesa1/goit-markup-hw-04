@@ -153,7 +153,8 @@ gap: 40px;
 }
 .section-second-ul{
     display: flex;
-    
+    padding-left: 0;
+    margin: 0;
     gap: 24px;
 }
 .section-second-li {
