@@ -49,6 +49,7 @@ header{
     padding: 24px 0;
 }
 .header-a{
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -59,13 +60,16 @@ header{
     color:#404bbf;
 }
 .header-adress{
-    display: flex;
+ 
     gap: 40px;
     font-style: normal;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+}
+.header-adress-ul{
+display: flex;
 }
 .header-adress:hover, .header-adress:focus{
     color: #404bbf;
