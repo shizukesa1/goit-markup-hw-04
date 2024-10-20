@@ -132,7 +132,11 @@ gap: 40px;
     display: flex;
     align-items: center;
     padding: 188px 0;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
    
+}
+.section-first:hover{
+    background-color: #fff;
 }
 .section-first .container {
     display: flex;
@@ -171,6 +175,20 @@ gap: 40px;
 }
 .section-second{
     padding: 120px 0;
+}
+.section-second-icon{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    height: 112px; 
+    background-color: #f4f4fd;
+    border-radius: 4px; 
+    border: 1px solid #8e8f99; 
+    margin-bottom: 8px; 
+}
+.icon{
+    width: 64px;
+    height: 64px;
 }
 .visually-hidden {
     position: absolute;
