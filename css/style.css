@@ -384,8 +384,10 @@ padding: 32px 0;
 .footer{
     padding: 100px 0;
     background-color:#2e2f42;
-    display: flex; 
-    align-items: baseline;
+}
+.footer-cont{
+    display: flex;
+    align-items: baseline,
 }
 .footer .container{
     width: 1158px;
