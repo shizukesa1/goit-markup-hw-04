@@ -465,12 +465,15 @@ padding: 32px 0;
     letter-spacing: 0.02em;
     color: #ffffff;
 }
+.footer-form-cont{
+    margin-left:24px;
+}
 .footer-form{
     display: flex; 
     gap: 24px;
 }
 .footer-label{
-    
+
 }
 .footer-input{
     width: 264px;
