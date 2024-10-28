@@ -686,7 +686,7 @@ color:#8e8f99;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: transparent;
+    fill: none;
 }
 .modal-input-check:checked + .modal-label .modal-span {
     background-color: #404bbf;
