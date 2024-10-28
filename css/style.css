@@ -630,7 +630,7 @@ fill: #ffffff;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-form-svg:focus{
+.modal-div-svg:focus-within .modal-form-svg {
     fill: #4D5AE5;
 }
 .modal-textarea-div{
@@ -686,7 +686,7 @@ color:#8e8f99;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    fill: none;
+    fill: transparent;
 }
 .modal-input-check:checked + .modal-label .modal-span {
     background-color: #404bbf;
