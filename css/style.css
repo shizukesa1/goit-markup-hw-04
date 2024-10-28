@@ -201,7 +201,7 @@ gap: 40px;
     height: 64px;
 }
 .visually-hidden {
-    position: absolute;
+position: absolute;
     width: 1px;
     height: 1px;
     margin: -1px;
