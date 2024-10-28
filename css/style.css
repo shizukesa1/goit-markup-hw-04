@@ -604,6 +604,7 @@ fill: #ffffff;
 }
 .modal-div-svg{
     position: relative;
+    fill:none;
 }
 .modal-input{
     width: 100%;
