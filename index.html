@@ -479,9 +479,9 @@
         </div>
       </div>
     </footer>
-    <div class="modal-cont">
+    <div class="modal-cont" id="modal">
       <div class="modal">
-        <button type="button" class="modal-button">
+        <button type="button" class="modal-button" id="close-modal">
           <svg class="modal-svg" width="8" height="8">
             <use href="./images/icons2.svg#icon-Vector-4"></use>
           </svg>
@@ -491,7 +491,7 @@
         </p>
         <form>
           <div class="modal-cont-div">
-            <label class="modal-form-label" for="user-name"> Name </label>
+            <label class="modal-form-label" for="user-name">Name</label>
             <div class="modal-div-svg">
               <input
                 id="user-name"
@@ -505,7 +505,7 @@
             </div>
           </div>
           <div class="modal-cont-div">
-            <label class="modal-form-label" for="user-tel"> Phone </label>
+            <label class="modal-form-label" for="user-tel">Phone</label>
             <div class="modal-div-svg">
               <input
                 id="user-tel"
@@ -519,7 +519,7 @@
             </div>
           </div>
           <div class="modal-cont-div">
-            <label class="modal-form-label" for="user-email"> Email </label>
+            <label class="modal-form-label" for="user-email">Email</label>
             <div class="modal-div-svg">
               <input
                 id="user-email"
@@ -533,7 +533,7 @@
             </div>
           </div>
           <div class="modal-textarea-div">
-            <label class="modal-form-label" for="user-comment"> Comment </label>
+            <label class="modal-form-label" for="user-comment">Comment</label>
             <textarea
               id="user-comment"
               name="user-comment"
@@ -563,5 +563,27 @@
         </form>
       </div>
     </div>
+
+    <script>
+      // Отримуємо елементи
+      const modal = document.getElementById("modal");
+      const closeModalButton = document.getElementById("close-modal");
+
+      // Функція для закриття модального вікна
+      function closeModal() {
+        modal.style.opacity = "0";
+        modal.style.visibility = "hidden";
+      }
+
+      // Додаємо обробник події для кнопки
+      closeModalButton.addEventListener("click", closeModal);
+
+      // Додатково: закриття при натисканні поза вікном
+      modal.addEventListener("click", (event) => {
+        if (event.target === modal) {
+          closeModal();
+        }
+      });
+    </script>
   </body>
 </html>
